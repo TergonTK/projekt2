@@ -1,0 +1,63 @@
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto; /* вирівнювання по центру */
+}
+
+header {
+    display: flex;
+}
+
+.p1 {
+    font-family: 'Cinzel Decorative';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 58px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.p2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.p3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20.8251px;
+    line-height: 24px;
+text-align: center;
+}
+
+ul {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.img1 {
+    width: 208px;
+    height: 208px;
+    left: 969px;
+    top: 41px;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+    .img1 {
+        order: 0;
+    }
+    nav {
+        order: 1;
+    }
+    .text {
+        order: 2;
+    }
+}
